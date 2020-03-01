@@ -4,21 +4,33 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 960px 1fr;
-  grid-template-rows: 1fr 980px 1fr;
-  grid-template-areas: "header header header" "floor-selection floor-map assets" "footer footer footer";
+  grid-template-rows: 148px 25px 980px 1fr;
+  grid-gap: 5px;
+  grid-template-areas: "header header header" "floor-selection inputinfo assets" "floor-selection floor-map assets" "footer footer footer";
 }
 
 .header {
+  color: white;
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 50px;
+  grid-template-rows: 100px;
   grid-area: header;
-  background-color: teal;
+  background-image: url(../assets/header-background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  align-items: center;
+}
+
+h3 {
+  text-align: center;
+  color: #0094B3;
+  font-size: 18px;
 }
 
 .header h1 {
   text-align: center;
-  margin: 0 auto;
+  margin: 42px auto 0px;
+  font-size: 73px;
 }
 
 .floor-map {
@@ -26,10 +38,38 @@ body {
   grid-area: floor-map;
   margin: 10px;
   border: 1px solid black;
-  background-size: 40px 40px;
+  
+}
+
+.inputinfo {
+  text-align: center;
+  
+  
+}
+
+#eventName {
+  width: 266px;
+  height: 23px;
+  border-radius: 12px;
+  margin: 12px 23px 0 0;
+  background-color: rgba(0,148,179,.15);
+}
+
+#eventDate {
+  width: 266px;
+  height: 23px;
+  border-radius: 12px;
+  margin: 12px 0 0 23px;
+  background-color: rgba(0,148,179,.15);
+}
+
+.grid-system {
+  width: 960px;
+  height: 980px;
+  background-size: 12px 12px;
   background-image:
-  linear-gradient(to right, grey 1px, transparent 1px),
-  linear-gradient(to bottom, grey 1px, transparent 1px);
+  linear-gradient(to right, rgba(0, 0, 100, 0.1) 1px, transparent 1px),
+  linear-gradient(to bottom, rgba(0, 0, 100, 0.1), transparent 1px);
 }
 
 .floor-selection {
@@ -37,7 +77,8 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   grid-area: floor-selection;
-  background-color: purple;
+  border: 1px solid black;
+  margin: 40px 0 10px 0;
 }
 
 
@@ -46,7 +87,8 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   grid-area: assets;
-  background-color: red;
+  border: 1px solid black;
+  margin: 40px 0 10px 0;
 }
 
 .footer {
@@ -57,28 +99,9 @@ body {
   background-color: orange;
 }
 
-/*I'm going to start this out in CSS Grid (AT)*/
-/*
-#floorplan {
-  float: left;
-  border: 10px solid black;
-  height: 600px;
-  width: 100px;
-  margin-right: 20px;
+button {
+  text-align: center;
+  margin: 0 auto;
+  width: 128px;
+  height: 36px;
 }
-
-#editor {
-  border: 1px solid red;
-  float: left;
-  height: 600px;
-  width: 100px;
-  margin-right: 20px;
-}
-
-#furniture {
-  float: left;
-  border: 1px solid blue;
-  height: 600px;
-  width: 100px;
-}
-*/
