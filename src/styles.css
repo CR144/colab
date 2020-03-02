@@ -1,6 +1,7 @@
 body {
   color: white;
 }
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 960px 1fr;
@@ -38,13 +39,10 @@ h3 {
   grid-area: floor-map;
   margin: 10px;
   border: 1px solid black;
-  
 }
 
 .inputinfo {
   text-align: center;
-  
-  
 }
 
 #eventName {
@@ -80,7 +78,6 @@ h3 {
   border: 1px solid black;
   margin: 40px 0 10px 0;
 }
-
 
 .assets {
   display: grid;
