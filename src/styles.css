@@ -49,7 +49,7 @@ h3 {
 
 #eventName {
   width: 266px;
-  height: 23px;
+  height: 15px;
   border-radius: 12px;
   margin: 12px 23px 5px 0;
   background-color: rgba(0,148,179,.15);
@@ -58,7 +58,7 @@ h3 {
 
 #eventDate {
   width: 266px;
-  height: 23px;
+  height: 15px;
   border-radius: 12px;
   margin: 12px 0 5px 23px;
   background-color: rgba(0,148,179,.15);
