@@ -22,6 +22,10 @@ body {
   align-items: center;
 }
 
+.blank {
+  grid-area: blank;
+}
+
 h3 {
   text-align: center;
   color: #0094B3;
