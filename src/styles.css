@@ -43,8 +43,8 @@ h3 {
 
 .inputinfo {
   text-align: center;
-  align-items: center; 
-
+  justify-items: center;
+  align-items: center;
 }
 
 #eventName {
