@@ -43,22 +43,25 @@ h3 {
 
 .inputinfo {
   text-align: center;
+
 }
 
 #eventName {
   width: 266px;
   height: 23px;
   border-radius: 12px;
-  margin: 12px 23px 0 0;
+  margin: 12px 23px 5px 0;
   background-color: rgba(0,148,179,.15);
+  text-align: center;
 }
 
 #eventDate {
   width: 266px;
   height: 23px;
   border-radius: 12px;
-  margin: 12px 0 0 23px;
+  margin: 12px 0 5px 23px;
   background-color: rgba(0,148,179,.15);
+  text-align: center;
 }
 
 .grid-system {
