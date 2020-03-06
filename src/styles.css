@@ -7,7 +7,7 @@ body {
   grid-template-columns: 1fr 960px 1fr;
   grid-template-rows: 148px 25px 980px 1fr;
   grid-gap: 5px;
-  grid-template-areas: "header header header" "floor-selection inputinfo assets" "floor-selection floor-map assets" "footer footer footer";
+  grid-template-areas: "header header header" "blank inputinfo blank" "floor-selection floor-map assets" "footer footer footer";
 }
 
 .header {
@@ -43,6 +43,7 @@ h3 {
 
 .inputinfo {
   text-align: center;
+  align-items: center; 
 
 }
 
