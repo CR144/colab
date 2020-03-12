@@ -1,5 +1,4 @@
 $('.test').click(function(){
-    $('svg').attr('viewBox', '0 0 200 200');
-    
-    
+    $('svg').removeAttr('viewBox');
+    $('svg').each(function () { $(this)[0].setAttribute('viewBox', '0 0 200 200') });
 });
