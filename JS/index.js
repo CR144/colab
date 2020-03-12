@@ -1,6 +1,6 @@
-$('.test').click(function(e){
-   /* $('svg').removeAttr('viewBox');
-    $('svg').each(function () { $(this).setAttribute('viewBox', '0 0 200 200'); }); */
+$(document).ready(function() {
 
-    $('svg').attr('viewBox', '0 0 200 200');
+$('.test').click(function(){
+   document.getElementById('svg').attr('viewBox' , '0,0,200,200');
+});
 });
