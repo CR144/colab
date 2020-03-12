@@ -9,7 +9,7 @@ $(document).ready(function() {
     });
 
    $('.circleCafe').click(function(){
-        $('#masterPlan').attr('viewBox' , '0,0,300,300');
+        $('#masterPlan').attr('viewBox' , '-200,-200,235,225');
      }); 
 
 });
