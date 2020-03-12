@@ -100,9 +100,6 @@ h3 {
   background-color: orange;
 }
 
-button {
-  text-align: center;
-  margin: 0 auto;
-  width: 128px;
-  height: 36px;
+.colab {
+  background: url()
 }
