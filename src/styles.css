@@ -4,8 +4,8 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 960px 1fr;
-  grid-template-rows: 148px 25px 980px 1fr;
+  grid-template-columns: 1fr 465px 1fr;
+  grid-template-rows: 148px 25px 497px 1fr;
   grid-gap: 5px;
   grid-template-areas: "header header header" "floor-selection inputinfo assets" "floor-selection floor-map assets" "footer footer footer";
 }
